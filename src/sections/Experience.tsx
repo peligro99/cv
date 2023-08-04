@@ -41,7 +41,7 @@ function Experience() {
     {
       name: "ACES",
       role: "President",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
+      url: "#",
       start: "November 2019",
       end: "November 2020",
       shortDescription: [
@@ -53,7 +53,7 @@ function Experience() {
     {
       name: "ISTE",
       role: "Web Developer",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
+      url: "#",
       start: "November 2019",
       end: "November 2020",
       shortDescription: [
@@ -65,7 +65,7 @@ function Experience() {
     {
       name: "Shashaan",
       role: "Founder",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
+      url: "#",
       start: "November 2018",
       end: "November 2021",
       shortDescription: [
@@ -88,7 +88,7 @@ function Experience() {
       }}
     >
       <div className="title">
-        <h2>Where I&apos;ve Worked</h2>
+        <h2>He trabajado</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">

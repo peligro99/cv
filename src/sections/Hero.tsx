@@ -53,7 +53,7 @@ function Hero() {
       >
         Soy un desarrollador con experiencia en la creación de chatbots, bots. 
         Actualmente me dedico a desarrollar productos accesibles y centrados en 
-        las necesidades del usuario, como parte del equipo 
+        las necesidades del usuario, como parte del equipo {" "}
         <Link href="https://kubo.net.co/" target="_blank" className="link">
            Kubo.
         </Link>

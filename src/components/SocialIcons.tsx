@@ -15,22 +15,18 @@ function SocialIcons() {
     {
       name: "Youtube",
       icon: <FiYoutube />,
-      link: "https://www.youtube.com/KishanSheth21/",
+      link: "#",
     },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/koolkishan/",
+      link: "https://www.linkedin.com/in/daniel-jimenez-sabogal-a235ba213/",
     },
-    {
-      name: "Instagram",
-      icon: <FiInstagram />,
-      link: "https://instagram.com/koolkishansheth",
-    },
+    
     {
       name: "Twitter",
       icon: <FiTwitter />,
-      link: "https://twitter.com/koolkishansheth",
+      link: "#",
     },
   ];
   return (

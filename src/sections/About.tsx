@@ -23,61 +23,50 @@ function About() {
       }}
     >
       <div className="title">
-        <h2>About Me</h2>
+        <h2>Sobre mi</h2>
       </div>
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            Hola! Mi nombre es Daniel Jimenez y me apasiona crear bots y
+            chatbots para mis clientes. Mis intereses sobre estan tecnologias
+            que empezaron con mi primer proyecto que consistio de un chatbot
+            para JC Studios con Tasker una aplicacion para mobiles.
           </p>
           <p className="about-grid-info-text">
-            Fast-forward to today, I specialize in designing and developing
-            high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops.
-            </Link>
+          En la actualidad me especializo en soluciones de alta calidad para
+          nuestros clientes cumpliendo sus espectativas en{" "}
+            <Link href="https://kubo.net.co/" target="_blank" className="link">
+           Kubo.
+        </Link>
           </p>
 
           <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
+          Además, comparto mis conocimientos y mi pasión con el mundo a través 
+          de mi canal de YouTube, donde muestro cómo crear aplicaciones completas.
           </p>
           <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
-            </Link>
-            &nbsp;aimed at enhancing frontend development skills.
+            Yo estoy trabajando en un nuevo proyecto llamado Wamarketing un bot
+            que permite difundir publicidad masiva por whatsapp
+            
           </p>
           <p className="about-grid-info-text">
-            Here are a few technologies I’ve been working with recently:
+          He aquí algunas tecnologías con las que he estado trabajando recientemente:
           </p>
           <ul className="about-grid-info-list">
-            <li className="about-grid-info-list-item">React</li>
+            <li className="about-grid-info-list-item">Tasker</li>
             <li className="about-grid-info-list-item">React Native</li>
-            <li className="about-grid-info-list-item">Next.js</li>
-            <li className="about-grid-info-list-item">Typescript</li>
-            <li className="about-grid-info-list-item">Redux Toolkit</li>
+            <li className="about-grid-info-list-item">Dialogflow</li>
             <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
-            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">Angular</li>
+            <li className="about-grid-info-list-item">Laravel</li>
           </ul>
         </div>
         <div className="about-grid-photo">
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/Daniel.jpeg" alt="profile" fill />
           </div>
         </div>
       </div>

@@ -29,8 +29,8 @@ function Footer() {
         target="_blank"
         className="footer-link"
       >
-        <span className="footer-info">Designed and Built by Kishan Sheth.</span>
-        {githubInfo && (
+        <span className="footer-info">Diseñado por Daniel Jimenez.</span>
+        {/* {githubInfo && (
           <div className="footer-git">
             <div className="footer-git-item">
               <FaRegStar className="footer-git-item-icon" />
@@ -41,7 +41,7 @@ function Footer() {
               <span className="footer-git-item-text">{githubInfo.forks}</span>
             </div>
           </div>
-        )}
+        )} */}
       </Link>
     </footer>
   );
