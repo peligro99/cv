@@ -15,7 +15,7 @@ function Hero() {
           delay: 0.6,
         }}
       >
-        Hi my name is
+        Hola mi nombre es
       </motion.h1>
       <motion.h2
         className="hero-title-large"
@@ -27,7 +27,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Kishan Sheth.
+        Daniel Jimenez.
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
@@ -39,7 +39,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        I craft things for the web.
+        Yo soy un chatbot developer
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -51,11 +51,11 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
-        <Link href="https://rapidops.com" target="_blank" className="link">
-          Rapidops.
+        Soy un desarrollador con experiencia en la creación de chatbots, bots. 
+        Actualmente me dedico a desarrollar productos accesibles y centrados en 
+        las necesidades del usuario, como parte del equipo 
+        <Link href="https://kubo.net.co/" target="_blank" className="link">
+           Kubo.
         </Link>
       </motion.p>
       <motion.div
@@ -68,10 +68,7 @@ function Hero() {
           delay: 1.65,
         }}
       >
-        <Button
-          text="Check out my course"
-          link="https://youtube.com/kishansheth21"
-        />
+    
       </motion.div>
     </div>
   );

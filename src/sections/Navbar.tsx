@@ -9,12 +9,12 @@ function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
-    { name: "About", link: "/#about" },
-    { name: "Experience", link: "/#experience" },
-    { name: "Work", link: "/#work" },
+    { name: "Inicio", link: "/#about" },
+    { name: "Experiencia", link: "/#experience" },
+    { name: "Trabajo", link: "/#work" },
     {
-      name: "Contact",
-      link: "/#contact",
+      name: "Contacto",
+      link: "https://kubo.net.co/contact/",
     },
   ];
 
@@ -123,7 +123,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="http://localhost:3000/resume.pdf" />
+            <Button text="Resumen" link="http://localhost:3000/resume.pdf" />
           </motion.div>
         </div>
       </div>

@@ -15,15 +15,15 @@ function Contact() {
         hidden: { opacity: 0, y: 0 },
       }}
     >
-      <h2 className="contact-title">What&apos;s Next?</h2>
-      <h2 className="contact-sub-title">Get In Touch</h2>
+      <h2 className="contact-title">Contacto</h2>
+      <h2 className="contact-sub-title">Póngase en contacto</h2>
       <p className="contact-text">
-        Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I’ll
-        try my best to get back to you!
+      Mi bandeja de entrada está siempre abierta. 
+      Si tienes alguna pregunta o simplemente quieres saludarme, 
+      ¡haré todo lo posible por responderte!
       </p>
       <div className="contact-cta">
-        <Button link="mailto:kishansheth21@gmail.com" text="Say Hello" />
+        <Button link="mailto:daniiel.jimenez.9@gmail.com" text="Di Hola" />
       </div>
     </motion.div>
   );
