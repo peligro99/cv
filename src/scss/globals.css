@@ -2,11 +2,11 @@
   --navy-shadow: rgba(2, 12, 27, 0.7);
   --background-color: #4F70E8;
   --lightest-navy: #233554;
-  --light-navy: #112240;
+  --light-navy: white;
   --dark-slate: #495670;
-  --slate: #8892b0;
+  --slate: white;
   --light-slate: #0938E3;
-  --lightest-slate: #a8b2d1;
+  --lightest-slate: white;
   --theme-color: #041963;
 }
 
