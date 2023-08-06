@@ -61,7 +61,7 @@ nav {
             &::before {
               counter-increment: nav-list;
               content: "0" counter(nav-list) ". ";
-              color: var(--dark-slate);
+              color: var(--background-color);
             }
           }
           a:focus {
@@ -90,7 +90,7 @@ nav {
         visibility: hidden;
         top: 0;
         padding: 50px 10px;
-        background-color: var(--light-navy);
+        background-color: var(--background-color);
         flex-direction: column;
         justify-content: center;
         align-items: center;

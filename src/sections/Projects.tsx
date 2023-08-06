@@ -27,7 +27,7 @@ function Projects() {
     },
     {
       image: "/project2.png",
-      projectName: "Realtime Chat App",
+      projectName: "Realtime Chat",
       projectLink: "https://netlify.com",
       projectDescription:
         "Esta es una aplicación de chat hecha con React y Node.js que envía mensajes en tiempo real y es altamente escalable. Utiliza conceptos avanzados de JavaScript como debouncing y está optimizada para React. Tiene más de 300 estrellas en GitHub y más de 180k visitas en YouTube.",
