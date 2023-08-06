@@ -11,7 +11,7 @@ function Projects() {
       projectName: "Pokedex",
       projectLink: "https://netlify.com",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "Esta es una aplicación web que utiliza la PokeAPI para mostrar información sobre diferentes Pokemon, incluyendo sus niveles de evolución y detalles. Puedes comparar múltiples Pokemon usando una cola, y añadirlos a tu lista personal usando la base de datos Firestore de Firebase..",
       projectTech: [
         "React",
         "Redux Toolkit",
@@ -21,8 +21,8 @@ function Projects() {
         "PokeApi",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/peligro99/Kubo",
+        externalLink: "#",
       },
     },
     {
@@ -30,7 +30,7 @@ function Projects() {
       projectName: "Realtime Chat App",
       projectLink: "https://netlify.com",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+        "TEsta es una aplicación de chat hecha con React y Node.js que envía mensajes en tiempo real y es altamente escalable. Utiliza conceptos avanzados de JavaScript como debouncing y está optimizada para React. Tiene más de 300 estrellas en GitHub y más de 180k visitas en YouTube.",
       projectTech: [
         "React",
         "Sockets",
@@ -40,8 +40,8 @@ function Projects() {
         "Styled Components",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/peligro99/Kubo",
+        externalLink: "#",
       },
     },
     {
@@ -49,7 +49,7 @@ function Projects() {
       projectName: "Netflix App",
       projectLink: "https://netlify.com",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "Hice una copia de Netflix con TMBD Api. Tiene desplazamiento infinito y te permite ver películas por género. También puedes añadir películas a tu lista de favoritos.",
       projectTech: [
         "React",
         "Node.js",
@@ -59,8 +59,8 @@ function Projects() {
         "Redux Toolkit",
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/peligro99/Kubo",
+        externalLink: "#",
       },
     },
   ];
@@ -77,7 +77,7 @@ function Projects() {
           hidden: { opacity: 0, y: 0 },
         }}
       >
-        <h2>Some Things I’ve Built</h2>
+        <h2>Algunos proyectos</h2>
       </motion.div>
       <div className="projects-container">
         {projectsData.map(
@@ -109,7 +109,7 @@ function Projects() {
                   </div>
                 </div>
                 <div className="project-info">
-                  <p className="project-info-overline">Featured Project</p>
+                  <p className="project-info-overline">Proyectos Destacados</p>
                   <h3 className="project-info-title">{projectName}</h3>
                   <div className="project-info-description">
                     <p>{projectDescription}</p>

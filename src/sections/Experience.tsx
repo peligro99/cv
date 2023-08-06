@@ -14,65 +14,59 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Rapidops",
-      role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
-      start: "January 2021",
-      end: "Present",
+      name: "FEDECOLDE",
+      role: "Delegado de eSport",
+      url: "https://fb.watch/c9AOj4Pzia/",
+      start: "Marzo 2022",
+      end: "Marzo 2022",
       shortDescription: [
-        "I had experience working on a large codebase utilizing Kibana and Elasticsearch.",
-        "Throughout my work, I've utilized various MERN stack technologies, including React, Redux, TypeScript, Node.js, Hapi, and Elasticsearch, among others.",
-        "I've also managed a small team that includes Frontend Developers, Backend Developers, and UI/UX Developers.",
-        "Additionally, I've represented the company in client meetings, communicating effectively on their behalf.",
+        "Fue Electo delegado de Brawl Strs para la Esports en FEDECOLDE transmitido por el canal Telecafe",
+        "Adicionalmente, realice parte de la publicidad como banner, perfiles e imagenes de la Esports",
+        "Esta experiencia me permitio adquirir habilidades comunicativas con los participantes, la organizacion del evento",
+      
+        
       ],
     },
     {
-      name: "Youtube",
-      role: "Content Creator",
-      url: "https://www.youtube.com/kishansheth21",
-      start: "April 2021",
-      end: "Present",
+      name: "JC Studios",
+      role: "Chatbot Developer",
+      url: "https://www.jcstudios.com.co/",
+      start: "Enero 2022",
+      end: "Presente",
       shortDescription: [
-        "Upon graduating in 2021, I began creating content on YouTube, with the aim of enhancing my skills and working with the latest technologies, specifically React and Node.",
-        "Over time, I have developed and shared over 50 projects using React on my channel.",
-        "As a result, my channel has gained a substantial following, with over 11,000 subscribers to date. I have also had the pleasure of collaborating with various brands throughout my journey.",
+        "Tuve experiencia trabajando con la plataforma android y dialogflow.",
+        "Durante mi trabajo tuve que utilizar varias tecnologias como Java, Dialogflow, Node.js, API de whatsapp",
+        "Dentro de mis funciones era realizar el analisis, diseño y ejecucion de un bot que permitiera a las modelos comunicarse con los clientes de forma optimizada",
+      
       ],
     },
     {
-      name: "ACES",
-      role: "President",
-      url: "#",
-      start: "November 2019",
-      end: "November 2020",
+      name: "Flirteo",
+      role: "Chatbot Developer",
+      url: "https://www.instagram.com/flirteo.oficial/",
+      start: "Enero 2022",
+      end: "Presente",
       shortDescription: [
-        "As the elected President of the ACES Departmental Club, I successfully led a team of board members and executive committee members to organize and execute multiple events throughout the year.",
-        "Additionally, I secured sponsorships from reputable brands to support our events.",
-        "Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.",
+        "Para el ChatBot implemente funciones como la de envio de archivos, PDF, Videos, Imágenes, Contactos,integre el envío automático de notas de voz, Captación de datos o registro de usuario",
+        "Realice un sistema de eMail, SMS Marketing y recordatorios por Whatsapp",
+        "Dentro de mis habilidades pude trabajr bajo la modalidad Scrum con el equipo de desarrollo",
+      
+
       ],
     },
     {
-      name: "ISTE",
-      role: "Web Developer",
-      url: "#",
-      start: "November 2019",
-      end: "November 2020",
+      name: "Tasker Community",
+      role: "Creador de contenido",
+      url: "https://www.reddit.com/r/tasker/?rdt=38458",
+      start: "Abril 2021",
+      end: "Presente",
       shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+        "He realizado durante mas de 2 años aportes a problemas de los usuarios que utilizan tasker y sus plugins",
+        "Me ha permitido comunicarme de forma escrita en el idioma ingles con los miembros de la comunidad",
+        
       ],
     },
-    {
-      name: "Shashaan",
-      role: "Founder",
-      url: "#",
-      start: "November 2018",
-      end: "November 2021",
-      shortDescription: [
-        "While still a student, I founded a web hosting company that offered affordable hosting services.",
-        "With over 300 customers, the business thrived until I graduated and sold it to another company.",
-      ],
-    },
+  
   ];
   return (
     <motion.div
@@ -88,7 +82,7 @@ function Experience() {
       }}
     >
       <div className="title">
-        <h2>He trabajado</h2>
+        <h2>He trabajado con</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">

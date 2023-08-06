@@ -11,11 +11,11 @@ import { motion } from "framer-motion";
 
 function SocialIcons() {
   const socialLinks = [
-    { name: "Github", icon: <FiGithub />, link: "https://www.github.com" },
+    { name: "Github", icon: <FiGithub />, link: "https://github.com/peligro99/Kubo" },
     {
       name: "Youtube",
       icon: <FiYoutube />,
-      link: "#",
+      link: "https://www.youtube.com/channel/UCY55bdL8MQBh5PbXtHojdJA",
     },
     {
       name: "LinkedIn",
@@ -23,11 +23,6 @@ function SocialIcons() {
       link: "https://www.linkedin.com/in/daniel-jimenez-sabogal-a235ba213/",
     },
     
-    {
-      name: "Twitter",
-      icon: <FiTwitter />,
-      link: "#",
-    },
   ];
   return (
     <motion.div
