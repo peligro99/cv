@@ -120,7 +120,7 @@
             align-items: center;
             &-link {
               padding: 10px;
-              color: var(--lightest-slate);
+              color: var(--theme-color);
               transition: 0.3s ease-in-out;
               outline: 2px dashed transparent;
               &:hover {
@@ -185,6 +185,21 @@
     margin: 5rem 0;
     &-container {
       .project {
+        &-info {
+          &-overline{
+            color: var(--background-color);
+          }
+          &-title {
+            color: var(--background-color);
+          }
+          &-links {
+            &-item {
+              &-link {
+                color: var(--background-color);
+              }
+            }
+          }
+        }
         &-image {
           &-container {
             width: 500px;
@@ -219,6 +234,7 @@
       h2 {
         &::after {
           width: 100px;
+          
         }
       }
     }

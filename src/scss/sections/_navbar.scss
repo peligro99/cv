@@ -42,7 +42,7 @@ nav {
     .nav-items {
       display: flex;
       gap: 3em;
-      color: var(--dark-slate);
+      color: var(--light-navy);
       font-family: var(--fira-code);
       font-weight: 500;
       font-size: var(--tsm1);
@@ -61,14 +61,14 @@ nav {
             &::before {
               counter-increment: nav-list;
               content: "0" counter(nav-list) ". ";
-              color: var(--background-color);
+              color: var(--theme-color);
             }
           }
           a:focus {
             outline-color: var(--theme-color);
           }
           &:hover {
-            color: var(--background-color);
+            color: var(--theme-color);
           }
         }
       }
@@ -112,9 +112,9 @@ nav {
     height: 80px;
     position: fixed;
     top: 0;
-    transition: 0.3s ease-in-out;
+    transition: 0.9s ease-in-out;
     z-index: 100;
-    background-color: rgba(10, 25, 47, 0.85);
+    background-color: rgba(17, 48, 95, 0.85);
     box-shadow: 0 10px 30px -10px var(--navy-shadow);
     backdrop-filter: blur(10px);
   }
