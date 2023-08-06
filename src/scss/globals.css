@@ -1,12 +1,12 @@
 :root {
   --navy-shadow: rgba(2, 12, 27, 0.7);
-  --background-color: #4F70E8;
+  --background-color: white;
   --lightest-navy: #233554;
-  --light-navy: white;
+  --light-navy: #112240;
   --dark-slate: #495670;
-  --slate: white;
+  --slate: #041963;
   --light-slate: #0938E3;
-  --lightest-slate: white;
+  --lightest-slate: #041963;
   --theme-color: #041963;
 }
 

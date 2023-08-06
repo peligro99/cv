@@ -42,7 +42,7 @@ nav {
     .nav-items {
       display: flex;
       gap: 3em;
-      color: var(--lightest-slate);
+      color: var(--dark-slate);
       font-family: var(--fira-code);
       font-weight: 500;
       font-size: var(--tsm1);
@@ -61,14 +61,14 @@ nav {
             &::before {
               counter-increment: nav-list;
               content: "0" counter(nav-list) ". ";
-              color: var(--theme-color);
+              color: var(--dark-slate);
             }
           }
           a:focus {
             outline-color: var(--theme-color);
           }
           &:hover {
-            color: var(--theme-color);
+            color: var(--background-color);
           }
         }
       }
