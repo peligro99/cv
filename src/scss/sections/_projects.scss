@@ -216,6 +216,21 @@
   @media screen and (max-width: 600px) {
     &-container {
       .project {
+        &-info {
+          &-overline{
+            color: var(--background-color);
+          }
+          &-title {
+            color: var(--background-color);
+          }
+          &-links {
+            &-item {
+              &-link {
+                color: var(--background-color);
+              }
+            }
+          }
+        }
         &-image {
           &-container {
             width: 350px;
